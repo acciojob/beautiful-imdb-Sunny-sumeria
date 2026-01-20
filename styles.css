@@ -1,2 +1,34 @@
 
 /* Your CSS Code here. */
+.moviePic {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;   /* Ensures the image doesn't stretch */
+    opacity: 0.7;      /* Mandatory property: makes the image slightly transparent */
+    display: block;
+}
+
+/* Styling for the Movie Description */
+.movieDetail {
+    /* Layout requirements */
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    
+    /* Typography and aesthetics */
+    font-size: 24px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Optional body styling for better appearance */
+body {
+    background-color: #000;
+    margin: 0;
+    overflow: hidden; /* Keeps the focus on the hero section */
+}
